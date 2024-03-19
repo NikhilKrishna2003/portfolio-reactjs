@@ -1,0 +1,29 @@
+import HeroSection from "./components/HeroSection"
+import Navbar from "./components/Navbar"
+import AboutSection from "./components/aboutSection";
+import ProjectSection from "./components/ProjectSection";
+import EmailSection from "./components/EmailSection";
+import Footer from "./components/Footer";
+import Achievements from "./components/Achievements";
+
+
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col bg-[#121212">
+      <Navbar/>
+      <div className="conatiner mx-auto px-14" >
+        <HeroSection />
+        <Achievements />
+        <AboutSection />
+        <ProjectSection />
+        <EmailSection />
+        <Footer />
+      </div>
+    </main>
+  );
+}
+
+
+//https://youtu.be/Kb1f5bvF6f4?si=WuFZJxRJHb15AsBq
+
+
