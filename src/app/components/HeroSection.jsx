@@ -9,12 +9,12 @@ const HeroSection = () => {
 
     <>
     <section className='lg:py-16'>
-     <div className="grid grid-cols-1 sm:grid-cols-12">
+     <div className="grid grid-cols-1 sm:grid-cols-12 p-20">
         <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
-            <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+            <h1 className="text-white text-10xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-green-400 to-yellow-200">Hello, I'm {""}</span>
-                <br /><br/>
-                <TypeAnimation
+                <br />
+                <TypeAnimation className='text-7xl'
                     sequence={[
                      'Software Developer',
                      1000,
